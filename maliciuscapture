@@ -1,0 +1,9 @@
+<a class="btn btn-primary" href="#" role="button" onclick="mostrarCookies()">Acessar</a>
+<p id="cookieInfo"></p>
+
+<script>
+function mostrarCookies() {
+    var cookies = document.cookie;
+    document.getElementById("cookieInfo").innerText = cookies;
+}
+</script>
